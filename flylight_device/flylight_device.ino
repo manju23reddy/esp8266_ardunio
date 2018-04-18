@@ -202,10 +202,7 @@ void readEEPROM(){
     } 
     
   }
-  if (NULL != data){
-    free(data);
-    data = NULL;
-  }
+  
 }
 
 void clean(){
